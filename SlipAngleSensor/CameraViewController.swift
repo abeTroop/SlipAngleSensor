@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CameraViewController.swift
 //  SlipAngleSensor
 //
 //  Created by Abe Troop on 6/12/25.
@@ -9,7 +9,7 @@ import UIKit
 import AVFoundation
 import Photos
 
-class ViewController: UIViewController, AVCaptureFileOutputRecordingDelegate {
+class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelegate {
     var captureSession: AVCaptureSession!
     var previewLayer: AVCaptureVideoPreviewLayer!
     var movieOutput: AVCaptureMovieFileOutput!
@@ -92,22 +92,29 @@ class ViewController: UIViewController, AVCaptureFileOutputRecordingDelegate {
             }
         }
     }
-
-
-    @IBAction func stopVideoTapped(_ sender: Any) {
-        stopRecording()
-        print("Stop video tapped")
-    }
     
-    @IBAction func startVideoTapped(_ sender: Any) {
+    @objc func startRecordingFromSwiftUI() {
         startRecording()
-        print("Start video tapped")
     }
+
+    @objc func stopRecordingFromSwiftUI() {
+        stopRecording()
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         setupCamera()
+        NotificationCenter.default.addObserver(self, selector: #selector(startRecordingFromSwiftUI), name: .startRecording, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(stopRecordingFromSwiftUI), name: .stopRecording, object: nil)
+
     }
 
 }
+
+extension Notification.Name {
+    static let startRecording = Notification.Name("startRecording")
+    static let stopRecording = Notification.Name("stopRecording")
+}
+

@@ -7,53 +7,53 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		D3D065BF2DFBCB3F00E46772 /* PBXContainerItemProxy */ = {
+		D3D066322DFE0D8B00E46772 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3D065A02DFBCB3D00E46772 /* Project object */;
+			containerPortal = D3D0661C2DFE0D8900E46772 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3D065A72DFBCB3D00E46772;
+			remoteGlobalIDString = D3D066232DFE0D8900E46772;
 			remoteInfo = SlipAngleSensor;
 		};
-		D3D065C92DFBCB3F00E46772 /* PBXContainerItemProxy */ = {
+		D3D0663C2DFE0D8B00E46772 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3D065A02DFBCB3D00E46772 /* Project object */;
+			containerPortal = D3D0661C2DFE0D8900E46772 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3D065A72DFBCB3D00E46772;
+			remoteGlobalIDString = D3D066232DFE0D8900E46772;
 			remoteInfo = SlipAngleSensor;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D3D065A82DFBCB3D00E46772 /* SlipAngleSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipAngleSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D065BE2DFBCB3F00E46772 /* SlipAngleSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipAngleSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3D065C82DFBCB3F00E46772 /* SlipAngleSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipAngleSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D066242DFE0D8900E46772 /* SlipAngleSensor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlipAngleSensor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D066312DFE0D8B00E46772 /* SlipAngleSensorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipAngleSensorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D0663B2DFE0D8B00E46772 /* SlipAngleSensorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlipAngleSensorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		D3D065D02DFBCB3F00E46772 /* Exceptions for "SlipAngleSensor" folder in "SlipAngleSensor" target */ = {
+		D3D066832DFE851000E46772 /* Exceptions for "SlipAngleSensor" folder in "SlipAngleSensor" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = D3D065A72DFBCB3D00E46772 /* SlipAngleSensor */;
+			target = D3D066232DFE0D8900E46772 /* SlipAngleSensor */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		D3D065AA2DFBCB3D00E46772 /* SlipAngleSensor */ = {
+		D3D066262DFE0D8900E46772 /* SlipAngleSensor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				D3D065D02DFBCB3F00E46772 /* Exceptions for "SlipAngleSensor" folder in "SlipAngleSensor" target */,
+				D3D066832DFE851000E46772 /* Exceptions for "SlipAngleSensor" folder in "SlipAngleSensor" target */,
 			);
 			path = SlipAngleSensor;
 			sourceTree = "<group>";
 		};
-		D3D065C12DFBCB3F00E46772 /* SlipAngleSensorTests */ = {
+		D3D066342DFE0D8B00E46772 /* SlipAngleSensorTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SlipAngleSensorTests;
 			sourceTree = "<group>";
 		};
-		D3D065CB2DFBCB3F00E46772 /* SlipAngleSensorUITests */ = {
+		D3D0663E2DFE0D8B00E46772 /* SlipAngleSensorUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SlipAngleSensorUITests;
 			sourceTree = "<group>";
@@ -61,21 +61,21 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D3D065A52DFBCB3D00E46772 /* Frameworks */ = {
+		D3D066212DFE0D8900E46772 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D065BB2DFBCB3F00E46772 /* Frameworks */ = {
+		D3D0662E2DFE0D8B00E46772 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D065C52DFBCB3F00E46772 /* Frameworks */ = {
+		D3D066382DFE0D8B00E46772 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D3D0659F2DFBCB3D00E46772 = {
+		D3D0661B2DFE0D8900E46772 = {
 			isa = PBXGroup;
 			children = (
-				D3D065AA2DFBCB3D00E46772 /* SlipAngleSensor */,
-				D3D065C12DFBCB3F00E46772 /* SlipAngleSensorTests */,
-				D3D065CB2DFBCB3F00E46772 /* SlipAngleSensorUITests */,
-				D3D065A92DFBCB3D00E46772 /* Products */,
+				D3D066262DFE0D8900E46772 /* SlipAngleSensor */,
+				D3D066342DFE0D8B00E46772 /* SlipAngleSensorTests */,
+				D3D0663E2DFE0D8B00E46772 /* SlipAngleSensorUITests */,
+				D3D066252DFE0D8900E46772 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D3D065A92DFBCB3D00E46772 /* Products */ = {
+		D3D066252DFE0D8900E46772 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3D065A82DFBCB3D00E46772 /* SlipAngleSensor.app */,
-				D3D065BE2DFBCB3F00E46772 /* SlipAngleSensorTests.xctest */,
-				D3D065C82DFBCB3F00E46772 /* SlipAngleSensorUITests.xctest */,
+				D3D066242DFE0D8900E46772 /* SlipAngleSensor.app */,
+				D3D066312DFE0D8B00E46772 /* SlipAngleSensorTests.xctest */,
+				D3D0663B2DFE0D8B00E46772 /* SlipAngleSensorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3D065A72DFBCB3D00E46772 /* SlipAngleSensor */ = {
+		D3D066232DFE0D8900E46772 /* SlipAngleSensor */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D065D12DFBCB3F00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensor" */;
+			buildConfigurationList = D3D066452DFE0D8B00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensor" */;
 			buildPhases = (
-				D3D065A42DFBCB3D00E46772 /* Sources */,
-				D3D065A52DFBCB3D00E46772 /* Frameworks */,
-				D3D065A62DFBCB3D00E46772 /* Resources */,
+				D3D066202DFE0D8900E46772 /* Sources */,
+				D3D066212DFE0D8900E46772 /* Frameworks */,
+				D3D066222DFE0D8900E46772 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				D3D065AA2DFBCB3D00E46772 /* SlipAngleSensor */,
+				D3D066262DFE0D8900E46772 /* SlipAngleSensor */,
 			);
 			name = SlipAngleSensor;
 			packageProductDependencies = (
 			);
 			productName = SlipAngleSensor;
-			productReference = D3D065A82DFBCB3D00E46772 /* SlipAngleSensor.app */;
+			productReference = D3D066242DFE0D8900E46772 /* SlipAngleSensor.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3D065BD2DFBCB3F00E46772 /* SlipAngleSensorTests */ = {
+		D3D066302DFE0D8B00E46772 /* SlipAngleSensorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D065D62DFBCB3F00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorTests" */;
+			buildConfigurationList = D3D066482DFE0D8B00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorTests" */;
 			buildPhases = (
-				D3D065BA2DFBCB3F00E46772 /* Sources */,
-				D3D065BB2DFBCB3F00E46772 /* Frameworks */,
-				D3D065BC2DFBCB3F00E46772 /* Resources */,
+				D3D0662D2DFE0D8B00E46772 /* Sources */,
+				D3D0662E2DFE0D8B00E46772 /* Frameworks */,
+				D3D0662F2DFE0D8B00E46772 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3D065C02DFBCB3F00E46772 /* PBXTargetDependency */,
+				D3D066332DFE0D8B00E46772 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D3D065C12DFBCB3F00E46772 /* SlipAngleSensorTests */,
+				D3D066342DFE0D8B00E46772 /* SlipAngleSensorTests */,
 			);
 			name = SlipAngleSensorTests;
 			packageProductDependencies = (
 			);
 			productName = SlipAngleSensorTests;
-			productReference = D3D065BE2DFBCB3F00E46772 /* SlipAngleSensorTests.xctest */;
+			productReference = D3D066312DFE0D8B00E46772 /* SlipAngleSensorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D3D065C72DFBCB3F00E46772 /* SlipAngleSensorUITests */ = {
+		D3D0663A2DFE0D8B00E46772 /* SlipAngleSensorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3D065D92DFBCB3F00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorUITests" */;
+			buildConfigurationList = D3D0664B2DFE0D8B00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorUITests" */;
 			buildPhases = (
-				D3D065C42DFBCB3F00E46772 /* Sources */,
-				D3D065C52DFBCB3F00E46772 /* Frameworks */,
-				D3D065C62DFBCB3F00E46772 /* Resources */,
+				D3D066372DFE0D8B00E46772 /* Sources */,
+				D3D066382DFE0D8B00E46772 /* Frameworks */,
+				D3D066392DFE0D8B00E46772 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3D065CA2DFBCB3F00E46772 /* PBXTargetDependency */,
+				D3D0663D2DFE0D8B00E46772 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				D3D065CB2DFBCB3F00E46772 /* SlipAngleSensorUITests */,
+				D3D0663E2DFE0D8B00E46772 /* SlipAngleSensorUITests */,
 			);
 			name = SlipAngleSensorUITests;
 			packageProductDependencies = (
 			);
 			productName = SlipAngleSensorUITests;
-			productReference = D3D065C82DFBCB3F00E46772 /* SlipAngleSensorUITests.xctest */;
+			productReference = D3D0663B2DFE0D8B00E46772 /* SlipAngleSensorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D3D065A02DFBCB3D00E46772 /* Project object */ = {
+		D3D0661C2DFE0D8900E46772 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
 				LastUpgradeCheck = 1640;
 				TargetAttributes = {
-					D3D065A72DFBCB3D00E46772 = {
+					D3D066232DFE0D8900E46772 = {
 						CreatedOnToolsVersion = 16.4;
 					};
-					D3D065BD2DFBCB3F00E46772 = {
+					D3D066302DFE0D8B00E46772 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = D3D065A72DFBCB3D00E46772;
+						TestTargetID = D3D066232DFE0D8900E46772;
 					};
-					D3D065C72DFBCB3F00E46772 = {
+					D3D0663A2DFE0D8B00E46772 = {
 						CreatedOnToolsVersion = 16.4;
-						TestTargetID = D3D065A72DFBCB3D00E46772;
+						TestTargetID = D3D066232DFE0D8900E46772;
 					};
 				};
 			};
-			buildConfigurationList = D3D065A32DFBCB3D00E46772 /* Build configuration list for PBXProject "SlipAngleSensor" */;
+			buildConfigurationList = D3D0661F2DFE0D8900E46772 /* Build configuration list for PBXProject "SlipAngleSensor" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = D3D0659F2DFBCB3D00E46772;
+			mainGroup = D3D0661B2DFE0D8900E46772;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = D3D065A92DFBCB3D00E46772 /* Products */;
+			productRefGroup = D3D066252DFE0D8900E46772 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3D065A72DFBCB3D00E46772 /* SlipAngleSensor */,
-				D3D065BD2DFBCB3F00E46772 /* SlipAngleSensorTests */,
-				D3D065C72DFBCB3F00E46772 /* SlipAngleSensorUITests */,
+				D3D066232DFE0D8900E46772 /* SlipAngleSensor */,
+				D3D066302DFE0D8B00E46772 /* SlipAngleSensorTests */,
+				D3D0663A2DFE0D8B00E46772 /* SlipAngleSensorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D3D065A62DFBCB3D00E46772 /* Resources */ = {
+		D3D066222DFE0D8900E46772 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D065BC2DFBCB3F00E46772 /* Resources */ = {
+		D3D0662F2DFE0D8B00E46772 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D065C62DFBCB3F00E46772 /* Resources */ = {
+		D3D066392DFE0D8B00E46772 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D3D065A42DFBCB3D00E46772 /* Sources */ = {
+		D3D066202DFE0D8900E46772 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D065BA2DFBCB3F00E46772 /* Sources */ = {
+		D3D0662D2DFE0D8B00E46772 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3D065C42DFBCB3F00E46772 /* Sources */ = {
+		D3D066372DFE0D8B00E46772 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,76 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D3D065C02DFBCB3F00E46772 /* PBXTargetDependency */ = {
+		D3D066332DFE0D8B00E46772 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3D065A72DFBCB3D00E46772 /* SlipAngleSensor */;
-			targetProxy = D3D065BF2DFBCB3F00E46772 /* PBXContainerItemProxy */;
+			target = D3D066232DFE0D8900E46772 /* SlipAngleSensor */;
+			targetProxy = D3D066322DFE0D8B00E46772 /* PBXContainerItemProxy */;
 		};
-		D3D065CA2DFBCB3F00E46772 /* PBXTargetDependency */ = {
+		D3D0663D2DFE0D8B00E46772 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3D065A72DFBCB3D00E46772 /* SlipAngleSensor */;
-			targetProxy = D3D065C92DFBCB3F00E46772 /* PBXContainerItemProxy */;
+			target = D3D066232DFE0D8900E46772 /* SlipAngleSensor */;
+			targetProxy = D3D0663C2DFE0D8B00E46772 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		D3D065D22DFBCB3F00E46772 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2647GR24XR;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SlipAngleSensor/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SDM.SlipAngleSensor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		D3D065D32DFBCB3F00E46772 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 2647GR24XR;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SlipAngleSensor/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SDM.SlipAngleSensor;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		D3D065D42DFBCB3F00E46772 /* Debug */ = {
+		D3D066432DFE0D8B00E46772 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -373,6 +317,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 2647GR24XR;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -401,7 +346,7 @@
 			};
 			name = Debug;
 		};
-		D3D065D52DFBCB3F00E46772 /* Release */ = {
+		D3D066442DFE0D8B00E46772 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -436,6 +381,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 2647GR24XR;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
@@ -457,12 +403,71 @@
 			};
 			name = Release;
 		};
-		D3D065D72DFBCB3F00E46772 /* Debug */ = {
+		D3D066462DFE0D8B00E46772 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2647GR24XR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlipAngleSensor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDM.SlipAngleSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D066472DFE0D8B00E46772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2647GR24XR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SlipAngleSensor/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SDM.SlipAngleSensor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3D066492DFE0D8B00E46772 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2647GR24XR;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
@@ -475,12 +480,13 @@
 			};
 			name = Debug;
 		};
-		D3D065D82DFBCB3F00E46772 /* Release */ = {
+		D3D0664A2DFE0D8B00E46772 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2647GR24XR;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MARKETING_VERSION = 1.0;
@@ -493,11 +499,12 @@
 			};
 			name = Release;
 		};
-		D3D065DA2DFBCB3F00E46772 /* Debug */ = {
+		D3D0664C2DFE0D8B00E46772 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2647GR24XR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SDM.SlipAngleSensorUITests;
@@ -509,11 +516,12 @@
 			};
 			name = Debug;
 		};
-		D3D065DB2DFBCB3F00E46772 /* Release */ = {
+		D3D0664D2DFE0D8B00E46772 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2647GR24XR;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = SDM.SlipAngleSensorUITests;
@@ -528,43 +536,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3D065A32DFBCB3D00E46772 /* Build configuration list for PBXProject "SlipAngleSensor" */ = {
+		D3D0661F2DFE0D8900E46772 /* Build configuration list for PBXProject "SlipAngleSensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3D065D42DFBCB3F00E46772 /* Debug */,
-				D3D065D52DFBCB3F00E46772 /* Release */,
+				D3D066432DFE0D8B00E46772 /* Debug */,
+				D3D066442DFE0D8B00E46772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D065D12DFBCB3F00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensor" */ = {
+		D3D066452DFE0D8B00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensor" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3D065D22DFBCB3F00E46772 /* Debug */,
-				D3D065D32DFBCB3F00E46772 /* Release */,
+				D3D066462DFE0D8B00E46772 /* Debug */,
+				D3D066472DFE0D8B00E46772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D065D62DFBCB3F00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorTests" */ = {
+		D3D066482DFE0D8B00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3D065D72DFBCB3F00E46772 /* Debug */,
-				D3D065D82DFBCB3F00E46772 /* Release */,
+				D3D066492DFE0D8B00E46772 /* Debug */,
+				D3D0664A2DFE0D8B00E46772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3D065D92DFBCB3F00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorUITests" */ = {
+		D3D0664B2DFE0D8B00E46772 /* Build configuration list for PBXNativeTarget "SlipAngleSensorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3D065DA2DFBCB3F00E46772 /* Debug */,
-				D3D065DB2DFBCB3F00E46772 /* Release */,
+				D3D0664C2DFE0D8B00E46772 /* Debug */,
+				D3D0664D2DFE0D8B00E46772 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D3D065A02DFBCB3D00E46772 /* Project object */;
+	rootObject = D3D0661C2DFE0D8900E46772 /* Project object */;
 }
