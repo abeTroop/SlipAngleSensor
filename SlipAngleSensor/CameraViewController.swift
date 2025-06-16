@@ -13,6 +13,8 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
     var captureSession: AVCaptureSession!
     var previewLayer: AVCaptureVideoPreviewLayer!
     var movieOutput: AVCaptureMovieFileOutput!
+    let sensorLogger = SensorLogger()
+
     
     func setupCamera() {
         captureSession = AVCaptureSession()
@@ -63,12 +65,17 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
         // Start recording
         movieOutput.startRecording(to: outputFileURL, recordingDelegate: self)
         print("Started recording to: \(outputFileURL)")
+        
+        sensorLogger.startLogging()
     }
     
     func stopRecording() {
         if movieOutput.isRecording {
             movieOutput.stopRecording()
             print("Stopped recording.")
+            
+            sensorLogger.stopLogging()
+            sensorLogger.saveToFile()
         }
     }
     
