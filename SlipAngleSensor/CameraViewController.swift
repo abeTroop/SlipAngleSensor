@@ -18,7 +18,6 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
     
     func setupCamera() {
         captureSession = AVCaptureSession()
-        captureSession.sessionPreset = .high // Resolution
 
         // Get the default camera
         guard let camera = AVCaptureDevice.default(for: .video) else {
@@ -34,6 +33,51 @@ class CameraViewController: UIViewController, AVCaptureFileOutputRecordingDelega
         }
 
         captureSession.addInput(input)
+        
+        do {
+            try camera.lockForConfiguration()
+            
+            if let desiredFormat = camera.formats.first(where: { format in
+                let desc = format.formatDescription
+                let dimensions = CMVideoFormatDescriptionGetDimensions(desc)
+                return dimensions.width == 1920 && dimensions.height == 1080 &&
+                    format.videoSupportedFrameRateRanges.contains(where: { $0.maxFrameRate >= 240 })
+            }) {
+                camera.activeFormat = desiredFormat
+
+                // Now set the actual frame rate you want
+                camera.activeVideoMinFrameDuration = CMTime(value: 1, timescale: 240)
+                camera.activeVideoMaxFrameDuration = CMTime(value: 1, timescale: 240)
+                print("Using 1080p @ 240 FPS")
+            } else if let fallbackFormat = camera.formats.first(where: { format in
+                let desc = format.formatDescription
+                let dimensions = CMVideoFormatDescriptionGetDimensions(desc)
+                return dimensions.width == 1280 && dimensions.height == 720 &&
+                    format.videoSupportedFrameRateRanges.contains(where: { $0.maxFrameRate >= 240 })
+            }) {
+                camera.activeFormat = fallbackFormat
+                camera.activeVideoMinFrameDuration = CMTime(value: 1, timescale: 240)
+                camera.activeVideoMaxFrameDuration = CMTime(value: 1, timescale: 240)
+                print("Using 720p @ 240 FPS fallback")
+
+            } else if let legacyFormat = camera.formats.first(where: { format in
+                let desc = format.formatDescription
+                let dimensions = CMVideoFormatDescriptionGetDimensions(desc)
+                return dimensions.width == 1280 && dimensions.height == 720 &&
+                    format.videoSupportedFrameRateRanges.contains(where: { $0.maxFrameRate >= 120 })
+            }) {
+                camera.activeFormat = legacyFormat
+                camera.activeVideoMinFrameDuration = CMTime(value: 1, timescale: 120)
+                camera.activeVideoMaxFrameDuration = CMTime(value: 1, timescale: 120)
+                print("Using 720p @ 120 FPS fallback")
+            } else {
+                print("No format found for 240 FPS — using default format and frame rate")
+            }
+
+            camera.unlockForConfiguration()
+        } catch {
+            print("Could not lock configuration: \(error)")
+        }
         
         // Add movie file output
         movieOutput = AVCaptureMovieFileOutput()
