@@ -34,7 +34,7 @@ EMA_ALPHA      = 0.2      # exponential moving average smoothing factor
 
 #edge this 
 
-DOWNSAMPLE     = 1        # downsampling factor: skip frames to reduce noise/CPU
+DOWNSAMPLE     = 4        # downsampling factor: skip frames to reduce noise/CPU
                           # e.g. 4 = keep 1 in 4 frames. Here, no downsampling.
 
 FOCAL_PX       = 1100     # focal length in pixels (from camera intrinsics, unused in this code)
@@ -218,4 +218,17 @@ def main(video):
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit("Usage: python robust_slip_angle.py <video>")
-    main(sys.argv[1])
+
+    video_path = sys.argv[1]   # <--- define video_path
+    main(video_path)
+
+    stem = Path(video_path).with_suffix("").name
+    csv_path = Path(f"{stem}_slip_angle.csv")
+
+    import csv
+    with csv_path.open("w", newline="") as f:
+        writer = csv.writer(f)
+        writer.writerow(["time_s", "beta_deg"])   # header
+        writer.writerows(zip(times, betas))
+
+    print(f"Saved datapoints to: {csv_path}")
