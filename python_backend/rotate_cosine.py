@@ -50,7 +50,7 @@ def main():
 
     cap = cv.VideoCapture(args.input)
     if not cap.isOpened():
-        sys.exit(f"❌  Could not open {args.input}")
+        sys.exit(f" Could not open {args.input}")
 
     fps   = cap.get(cv.CAP_PROP_FPS)
     width = int(cap.get(cv.CAP_PROP_FRAME_WIDTH))
@@ -59,7 +59,7 @@ def main():
 
     out = cv.VideoWriter(args.output, fourcc, fps, (width, height))
     if not out.isOpened():
-        sys.exit("❌  Could not open VideoWriter")
+        sys.exit(" Could not open VideoWriter")
 
     total_frames = int(cap.get(cv.CAP_PROP_FRAME_COUNT))
     omega = 2*math.pi / args.period                 # rad / s
@@ -91,7 +91,7 @@ def main():
 
     cap.release()
     out.release()
-    print(f"✅  Wrote {frame_idx} frames to {Path(args.output).resolve()}")
+    print(f" Wrote {frame_idx} frames to {Path(args.output).resolve()}")
     print(f"    Rotation: β(t) = {amp}·cos(2π t/{args.period} + {args.phase}°)")
 
 if __name__ == "__main__":
