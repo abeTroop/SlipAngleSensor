@@ -1,0 +1,23 @@
+{
+  "name": "slip-angle-app",
+  "version": "1.0.0",
+  "description": "Desktop application for slip angle sensor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeTroop/SlipAngleSensor.git"
+  },
+  "author": "Sun Devil Motorsports",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeTroop/SlipAngleSensor/issues"
+  },
+  "homepage": "https://github.com/abeTroop/SlipAngleSensor#readme",
+  "devDependencies": {
+    "electron": "^38.2.0"
+  }
+}
