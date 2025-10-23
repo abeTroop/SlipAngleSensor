@@ -1,20 +1,47 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <title>Hello from Electron renderer!</title>
-  </head>
-  <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Slip Angle Analyzer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    fieldset { margin-top: 1rem; }
+    .hidden { display: none; }
+    img { max-width: 100%; border-radius: 8px; box-shadow: 0 2px 12px rgba(0,0,0,.15); margin-top: 1rem; }
+    pre { background:#111; color:#eee; padding:1rem; border-radius:8px; overflow:auto; }
+  </style>
+</head>
+<body>
+  <h1>Slip Angle Analyzer</h1>
+
+  <form id="analyzeForm" enctype="multipart/form-data">
+    <input type="file" name="video" accept="video/*" required><br>
+
+    <fieldset>
+      <legend>Optional Params</legend>
+      <label>ROI_FRACTION_Y <input type="number" step="0.01" name="roi_fraction_y" value="0.8"></label><br>
+      <label>MAX_FEATURES <input type="number" name="max_features" value="1000"></label><br>
+      <label>GOOD_MATCH_FRAC <input type="number" step="0.01" name="good_match_frac" value="0.7"></label><br>
+      <label>EMA_ALPHA <input type="number" step="0.01" name="ema_alpha" value="0.2"></label><br>
+      <label>DOWNSAMPLE <input type="number" name="downsample" value="4"></label><br>
+      <label>HEADING_OFFSET <input type="number" step="0.1" name="heading_offset" value="90.0"></label>
+    </fieldset>
+
+    <button type="submit">Analyze</button>
+  </form>
+
+  <div id="results" class="hidden">
+    <h2>Results</h2>
+    <div id="stats"></div>
+    <a id="csvLink" href="#" download>Download CSV</a>
+    <img id="plotImg" alt="Slip angle plot">
+    <details>
+      <summary>Raw JSON</summary>
+      <pre id="rawJson"></pre>
+    </details>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
 </html>
